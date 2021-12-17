@@ -20,7 +20,7 @@ public class UIMagicDropdownButton: UIButton {
         view.textColor = self.theme?.colors?.hintTextColor ?? .darkGray
         view.font = self.theme?.fonts?.hintFont ?? .systemFont(ofSize: 17)
         view.textAlignment = .left
-        view.text = "Select Option"
+        view.text = "Select City"//"Select Option"
         view.isHidden = false
         return view
     }()
