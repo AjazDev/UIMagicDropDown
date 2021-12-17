@@ -189,7 +189,7 @@ public class UIMagicDropdown: UIView, UITableViewDelegate, UITableViewDataSource
     // MARK: - Show / Hide TableView
     func show() {
         tableView.theme = theme
-        var tableHeight = 47 * 4
+        var tableHeight = (47 * 4) + 10 
         let itemsCount = self.items?.count ?? 0
         if itemsCount < 4 {
             tableHeight = itemsCount * 47
